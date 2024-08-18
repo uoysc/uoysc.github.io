@@ -17,7 +17,7 @@ body {
 	width: 100%;
 	max-width: 768px;
 	margin: 0 auto;
-	padding-bottom: 25px;
+	padding-bottom: 2em;
 }
 
 p {
@@ -829,7 +829,7 @@ footer {
 	background: #EEEEEE;
 	padding: 10px 0 10px 0;
 	height: 3em;
-	margin-top: -3em;
+	/* margin-top: -1em; */
 }
 
 footer a {
@@ -840,14 +840,29 @@ footer a {
 footer .wrapper {
 	position: relative;
 	margin: 0 auto;
+	padding-bottom: 0;
 }
 
-p.copyright {
+footer .text {
 	color: #999;
 	font-size: 11px;
+	display: inline-block;
+	margin: 0 0 0 0;
+}
+
+footer p {
+	margin: 0 0 0 0;
+}
+
+/* p.copyright {
 	margin: 0 0 0 0;
 	float:left;
 }
+
+p.legal {
+	margin: 0 0 0 0;
+	float:right;
+} */
 
 footer .york-sport-union {
 	position: relative;
