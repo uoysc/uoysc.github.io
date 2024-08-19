@@ -1008,9 +1008,12 @@ label.light {
 COMMITTEE
 ***********/
 
+.page-committee{
+	margin-top: 2em;
+}
+
 .committee{
 	width: auto;
-	display: inline-block;
 	float: left;
 	text-align: center;
 	margin-bottom: 15px;
